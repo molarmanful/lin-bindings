@@ -1,6 +1,6 @@
 {
   "name": "@molarmanful/lin-bindings",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "main": "index.js",
   "types": "index.d.ts",
   "napi": {
@@ -22,11 +22,6 @@
     "prepublishOnly": "napi prepublish -t npm",
     "test": "ava",
     "version": "napi version"
-  },
-  "optionalDependencies": {
-    "@molarmanful/lin-bindings-win32-x64-msvc": "0.0.0",
-    "@molarmanful/lin-bindings-darwin-x64": "0.0.0",
-    "@molarmanful/lin-bindings-linux-x64-gnu": "0.0.0"
   },
   "description": "Rust bindings for lin.",
   "repository": "https://github.com/molarmanful/lin-bindings",
