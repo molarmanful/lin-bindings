@@ -11,9 +11,16 @@
   "files": [
     "lin-bindings.linux-x64-gnu.node"
   ],
+  "description": "Rust bindings for lin.",
+  "author": "",
+  "homepage": "https://github.com/molarmanful/lin-bindings#readme",
   "license": "MIT",
   "engines": {
     "node": ">= 10"
+  },
+  "repository": "https://github.com/molarmanful/lin-bindings",
+  "bugs": {
+    "url": "https://github.com/molarmanful/lin-bindings/issues"
   },
   "libc": [
     "glibc"

@@ -27,5 +27,12 @@
     "@molarmanful/lin-bindings-win32-x64-msvc": "0.0.0",
     "@molarmanful/lin-bindings-darwin-x64": "0.0.0",
     "@molarmanful/lin-bindings-linux-x64-gnu": "0.0.0"
-  }
+  },
+  "description": "Rust bindings for lin.",
+  "repository": "https://github.com/molarmanful/lin-bindings",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/molarmanful/lin-bindings/issues"
+  },
+  "homepage": "https://github.com/molarmanful/lin-bindings#readme"
 }
