@@ -8,8 +8,7 @@ crate-type = ["cdylib"]
 
 [dependencies]
 is_prime = "2.0.9"
-# Default enable napi4 feature, see https://nodejs.org/api/n-api.html#node-api-version-matrix
-napi = { version = "2.7.0", default-features = false, features = ["napi4"] }
+napi = { version = "2.7.0", default-features = false, features = ["napi6"] }
 napi-derive = "2.7.0"
 scanpw = "0.1.0"
 
